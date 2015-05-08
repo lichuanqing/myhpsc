@@ -1,0 +1,6 @@
+Code run by Tranchin Lee
+Environment variable UWHPSC is /home/licq/learn/uwhpsc
+Environment variable MYHPSC is /home/licq/learn/myhpsc
+Imported numpy ok
+Imported matplotlib ok
+Imported pylab ok
