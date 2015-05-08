@@ -1,0 +1,23 @@
+
+Code run by Tranchin Lee
+Environment variable UWHPSC is /home/licq/learn/uwhpsc
+Environment variable MYHPSC is /home/licq/learn/myhpsc
+
+which ipython returns...
+/usr/bin/ipython
+
+which gfortran returns...
+/usr/bin/gfortran
+
+gfortran --version returns...
+GNU Fortran (Ubuntu/Linaro 4.6.3-1ubuntu5) 4.6.3
+Copyright © 2011 Free Software Foundation, Inc.
+
+GNU Fortran 在法律允许的范围内没有任何担保。
+您可以在遵循 GNU 通用公共许可证的前提下分发 GNU Fortran 的副本。
+有关事宜的详情请参考名为 COPYING 的文件
+
+
+Compiling and running a Fortran code...
+ Code run by  Tranchin Lee
+ Successfully ran Fortran 90 program
