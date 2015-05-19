@@ -1,0 +1,7 @@
+Learning NOTE for this course.learnNOTE.txt created on May19,2015.
+
+1) creat array x=numpy.array([1,2,3])
+2) Matrix created by array :A=np.vstack([np.ones(3),x,x**2]).T
+3) Equation Ax=b can been solved by the solve function from the numpy.linalg module x=solve(A,b) note: import solve before use
+4) matlibplot.pyplot moudule can be use for figure. import matlibplot.pyplot as plt :plt.figure(1),plt.plot(x,y,'r--'),plt.plot(xi,yi,'ro'),plt.ylim(-5,5),plt.title("curve"),plt.savefig('name.png')
+ 
