@@ -6,3 +6,6 @@ Learning NOTE for this course.learnNOTE.txt created on May19,2015.
 4) matlibplot.pyplot moudule can be use for figure. import matlibplot.pyplot as plt :plt.figure(1),plt.plot(x,y,'r--'),plt.plot(xi,yi,'ro'),plt.ylim(-5,5),plt.title("curve"),plt.savefig('name.png')
  
  5) git pull update the repons. modified= git fethc origin $ git merge origin/master 
+ 6) ''' help doc ''' ,the ''' shoub be set right position(space)
+ 7)if __name__=="__main__": belove code will be excute if run module
+ 
