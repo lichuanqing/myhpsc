@@ -8,4 +8,4 @@ Learning NOTE for this course.learnNOTE.txt created on May19,2015.
  5) git pull update the repons. modified= git fethc origin $ git merge origin/master 
  6) ''' help doc ''' ,the ''' shoub be set right position(space)
  7)if __name__=="__main__": belove code will be excute if run module
- 
+ 8)xi.min()retrun the minimum of array xi,xi.max() return the maximum
