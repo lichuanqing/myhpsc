@@ -50,6 +50,22 @@ def test_quad1():
 	print "c	 :",c
 	print "c_true:",c_true
 	assert np.allclose(c,c_true),"Incorrect resutls c= %s, Expected c= %s" %(c,c_true)
+	
+def plot_quad(xi,yi):
+	'''
+	take two points:xi,yi >call the function quad_interp > plot the curve and points.
+	'''
+	#call quad_interp to compute vector c
+	c=quad_interp(xi,yi)
+	x=np.linspace(xi.min()-1,xi.max()+2,1000) #the range of x for curve
+	y=c[0]+c[1]*x+c[2]*x*x
+	plt.figure(1)
+	plt.clf()
+	plt.plot(x,y,'b-') #blue line
+	plt.plot(xi,yi,'ro')#red point
+	plt.title("quadratic polynominal and interpation")
+	plt.savefig('quadratic.png')
+	return
 if __name__=="__main__":
 	print"Runing test---"
 	test_quad1()
