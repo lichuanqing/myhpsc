@@ -9,3 +9,5 @@ Learning NOTE for this course.learnNOTE.txt created on May19,2015.
  6) ''' help doc ''' ,the ''' shoub be set right position(space)
  7)if __name__=="__main__": belove code will be excute if run module
  8)xi.min()retrun the minimum of array xi,xi.max() return the maximum
+ 
+ 9)A=np.ones(n,n) A(N,N) Matrix can be created,and then A[j]=xi**j
